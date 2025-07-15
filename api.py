@@ -1,5 +1,4 @@
 import requests
-import validators
 
 is_gh = True
 url = "https://stainlesteel.github.io/squid-game-api"
