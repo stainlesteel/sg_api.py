@@ -1,0 +1,23 @@
+name: PyTest
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: install python
+            - run: sudo apt install python3.11
+
+            - name: install pip pytest
+            - run: python3 -m pip install pytest
+
+            - name: run tests
+            - run: pytest
