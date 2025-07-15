@@ -10,9 +10,6 @@ Some JSON files you fetch may have invalid headers leading to an error.
 If this occurs, open an issue on the GitHub (above).
 
 ## Usage
-``` python
-```
-```
 ```python
 characters(1, 218, "title")
 # Cho Sang-woo
@@ -26,9 +23,6 @@ sg_api.py only requires the `requests` python package which is included with Pyt
 As such, you can install sg_api.py by:
 ```
 pip3 install sg_api.py
-
-```
-```
 ```
 ## Other Information
 
