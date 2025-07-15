@@ -1,0 +1,23 @@
+[project]
+name = "sg-api.py"
+version = "0.1.0"
+authors = [
+  { name="stainlesteel", email="pd4500@protonmail.com"}
+]
+description = "A python API wrapper for the Squid Game API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/stainlesteel/sg_api.py"
+Issues = "https://github.com/stainlesteel/sg_api.py/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
