@@ -12,6 +12,8 @@ If this occurs, open an issue on the GitHub.
 
 ## Usage
 ```python
+import sg_api_py
+from sg_api_py import characters, episodes
 # This package uses return statements instead of print
 print(characters(1, 218, "title"))
 # Cho Sang-woo
@@ -24,8 +26,6 @@ For more info, wait for the documentation or read the source code (100 lines)
 You can easily install via PIP.
 ```bash
 pip install sg_api_py
-```
-```
 ```
 ## Other Information
 
