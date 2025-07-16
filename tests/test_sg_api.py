@@ -1,6 +1,5 @@
 import pytest
-import api
-from api import characters, episodes
+from sg_api_py.api import characters, episodes
 
 def test_characters():
     assert characters(1, 218, "title") == "Cho Sang-woo"
