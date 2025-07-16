@@ -1,6 +1,6 @@
 [project]
 name = "sg-api.py"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="stainlesteel", email="pd4500@protonmail.com"}
 ]
