@@ -1,8 +1,5 @@
 [project]
 name = "sg-api.py"
-<<<<<<< HEAD
-version = "0.1.3"
-=======
 version = "0.1.4"
 >>>>>>> 8b36826 (fix stuff)
 authors = [
