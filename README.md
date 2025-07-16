@@ -12,15 +12,21 @@ If this occurs, open an issue on the GitHub.
 
 ## Usage
 ```python
-characters(1, 218, "title")
+# This package uses return statements instead of print
+print(characters(1, 218, "title"))
 # Cho Sang-woo
-episodes(1, 4, "title")
+print(episodes(1, 4, "title"))
 # Stick to the Team
 ```
 
 For more info, wait for the documentation or read the source code (100 lines)
 ## Installation
-coming soon..
+You can easily install via PIP.
+```bash
+pip install sg_api_py
+```
+```
+```
 ## Other Information
 
 Licensed under the MIT License.
