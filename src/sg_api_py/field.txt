@@ -1,0 +1,20 @@
+list of fields for wrapper
+Characters:
+KWARG | JSON
+title | title
+name | name
+aliases | aliases
+family | family
+relations | relations
+affliation | affliation
+occupation | occupation
+birth | born
+fate | fate
+appearances | appearances
+--------------------
+Episodes:
+KWARG | JSON
+title | title
+details | episode_details
+info | episode_information
+guide | episode_guide

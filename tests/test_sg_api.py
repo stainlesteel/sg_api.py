@@ -8,7 +8,7 @@ def test_characters():
 
 def test_episodes():
     assert episodes(1, 4, "title") == "Stick to the Team"
-    assert episodes(2, 2, "details") == "{'Season': '2', 'Episode': '2', 'Overall': '11'}"
-    assert episodes(3, 5, "info") == "{'Duration': '62 minutes', 'Air Date': 'June 27, 2025', 'Writer': 'Hwang Dong-hyuk', 'Director': 'Hwang Dong-hyuk'}"
+    assert episodes(2, 2, "episode_details") == "{'Season': '2', 'Episode': '2', 'Overall': '11'}"
+    assert episodes(3, 5, "episode_information") == "{'Duration': '62 minutes', 'Air Date': 'June 27, 2025', 'Writer': 'Hwang Dong-hyuk', 'Director': 'Hwang Dong-hyuk'}"
 
 

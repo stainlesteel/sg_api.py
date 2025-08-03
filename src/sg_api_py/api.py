@@ -33,29 +33,11 @@ def characters(season, number, field=None):
         actual_url = f"{url}/s{ketchup}/characters/{mustard}.json"
     resp = requests.get(actual_url)
     data = resp.json()
-    if field == "title":
-        return(f"{data['title']}")
-    elif field == "name":
-        return(f"{data['name']}")
-    elif field == "aliases":
-        return(f"{data['aliases']}")
-    elif field == "family":
-        return(f"{data['family']}")
-    elif field == "relations":
-        return(f"{data['relations']}")
-    elif field == "affliation":
-        return(f"{data['affliation']}")
-    elif field == "occupation":
-        return(f"{data['occupation']}") 
-    elif field == "birth":
-        return(f"{data['born']}")
-    elif field == "fate":
-        return(f"{data['fate']}")
-    elif field == "appearances":
-        return(f"{data['appearances']}")
-    else:    
-     for key, value in data.items():
-        return(f"{key}: {value}")
+    if field is not None:
+        return(f"{data[field]}")
+    else:
+        items = [f"{key}:{value}" for key, value in data.items()]
+        return "\n".join(items)
  
 
 def episodes(season, number, field=None):
@@ -73,14 +55,9 @@ def episodes(season, number, field=None):
         actual_url = f"{url}/s{ketchup}/episodes/{mustard}.json"
     resp = requests.get(actual_url)
     data = resp.json()
-    if field == "title":
-        return(f"{data['title']}")
-    elif field == "details":
-        return(f"{data['episode_details']}")
-    elif field == "info":
-        return(f"{data['episode_information']}")
-    elif field == "guide":
-        return(f"{data['episode_guide']}")
+    if field is not None:
+        return(f"{data[field]}")    
     else:    
-     for key, value in data.items():
-        return(f"{key}: {value}")
+        items = [f"{key}:{value}" for key, value in data.items()]
+        return "\n".join(items)
+
