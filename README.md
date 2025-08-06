@@ -21,7 +21,7 @@ print(episodes(1, 4, "title"))
 # Stick to the Team
 ```
 
-For more info, wait for the documentation or read the source code (100 lines)
+For more info, read the [documentation.](docs/usage.md)
 ## Installation
 You can easily install via PIP.
 ```bash
