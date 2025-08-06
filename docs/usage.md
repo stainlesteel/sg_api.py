@@ -24,15 +24,27 @@ As shown above, you only need one line to either get a list of key:value pairs a
 These are the fields you can choose to use for its respective function.
 #### Characters
 `title`: Character title
+
 `name`: Character's real name (if available)
+
 `aliases`: Other names for the character
+
 `family`: Character's related family
+
 `relations`: Character's relations
+
 `occupation`: Character's occupation
+
 `born`: Character's date of birth
+
 `fate`: Characters death info
+
 `appearances`: First/last appearances
+
 #### Episodes
 `title`: Episode title
+
 `episode_details`: Minor episode details
+
 `episode_guide`: Previous/next episode
+
